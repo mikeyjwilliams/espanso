@@ -1,0 +1,8 @@
+name: emails
+parent: default
+
+matches:
+  - trigger: ":sig"
+    replace: |
+      Sincerely,
+      Michael Williams
