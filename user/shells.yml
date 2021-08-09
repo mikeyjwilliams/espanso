@@ -1,0 +1,8 @@
+  
+  
+  # lab name
+  - trigger: ":labname"
+    replace: "williamsmikeyj"
+  # lab key
+  - trigger: ":labpass"
+    replace: "6a!%@&4fA^UJF9!vPK&5dx^852%J663"
