@@ -1,0 +1,29 @@
+name: browser
+parent: default
+filter_exec: 'C:\Program Files\Google\Chrome\Application\chrome.exe'
+
+# general job resume shortcuts.
+# based off of the uppercased usual requires in a resume.
+  # first name
+  - trigger: ':fn'
+    replace: 'Michael'
+
+  # last name
+  - trigger: ':ln'
+    replace: 'Williams'
+  
+  # professional email
+  - trigger: ':ea'
+    replace: 'williamsmikeyj@outlook.com'
+
+  # phone number
+  - trigger: ':p'
+    replace: '9414486265'
+  
+  # Address sliced
+  # Address = street number section
+  - trigger: ':a'
+    replace: '7603 1st ave w'
+
+  # city
+  - trigger: ':c'
