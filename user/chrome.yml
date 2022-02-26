@@ -1,0 +1,40 @@
+# Chrome browser file
+# Author: Michael Williams
+# Date: 02-26-2022
+# Description: espanso shortcuts for chrome browser.
+filter_exec: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+
+matchs:
+  # First name
+  - trigger: ":fname"
+  # replace with your first name
+    replace: "first_name"
+
+  # Last name
+  - trigger: ":lname"
+  # replace with your last name
+    replace: "last_name"
+
+  # personal email
+  - trigger: ":myemail"
+  # replace with personal email
+    replace: 'email_address@domain.com'
+
+  # professional email
+  - trigger: ':proemail'
+  # replace with profesional email
+    replace: 'email_address@domain.com'
+
+  # phone number
+  - trigger: ':phone'
+    # replace with your phone number
+    replace: '***-***-****'
+
+  # zip code
+  - trigger: ':zip'
+    # replace with your zip code
+    replace: '*****'
+  
+
+
+  

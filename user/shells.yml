@@ -1,11 +1,12 @@
-  name: shells
-  parent: default
-  filter_exec: "C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.9.1942.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe"
+name: shells
+parent: default
+# filter_exec: ""
+filter_exec: 'C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.9.1942.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe'
 
-  matches:
+matches:
   # lab name
   - trigger: ":labname"
-    replace: "williamsmikeyj"
+    replace: "williammikeyj"
   # lab key
   - trigger: ":labpass"
     replace: "6a!%@&4fA^UJF9!vPK&5dx^852%J663"
